@@ -1685,7 +1685,7 @@ export default function App() {
   const handleSaved = () => {
     setStockRefreshKey(k => k + 1);
     setUsedRefreshKey(k => k + 1);
-    setRoute("stock");
+    setRoute("used");
   };
 
   return (
@@ -1718,7 +1718,7 @@ export default function App() {
           onBack={() => {
             setStockRefreshKey(k => k + 1);
             setUsedRefreshKey(k => k + 1);
-            setRoute("stock");
+            setRoute("used");
           }} 
         />
       )}
